@@ -31,8 +31,7 @@ app.use(llamarexpress.static('./public'))
 
 app.get('/',  (req, res)=>{
     res.render('home',{
-        nombre:'Adolfo Damian',
-        title:'CURSO BASICO DE NODE.JS'
+        nombre:'Adolfo Damian'
     })
 })
 
